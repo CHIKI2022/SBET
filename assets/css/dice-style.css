@@ -1,0 +1,65 @@
+body {
+	font-family: Roboto;
+    background-color: #132152;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.game-container {
+    background: #2e3b4e;
+    box-shadow: 0px 0px 10px black;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+}
+
+.bet-controls, .bet-info {
+    margin-bottom: 20px;
+}
+
+.bet-controls label, .bet-info label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.bet-controls input, .bet-info input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background: #1b2735;
+    color: #fff;
+}
+
+.slider-container {
+    margin-bottom: 20px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.slider-labels {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover {
+    background: #218838;
+}

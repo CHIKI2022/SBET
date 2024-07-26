@@ -1,0 +1,98 @@
+html, body{
+	font-family: Roboto;
+	cursor: default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.choose-game {
+    justify-content: center;
+    background-color: #353535;
+    height: 50vh;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;    
+}
+.choose-game button {
+    padding: 20px 80px;
+    margin: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 14px;
+    background-color: #333;
+    color: white;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 15px black;
+    border-radius: 8px;
+}
+
+.choose-game button:hover {
+    background-color: #2b5dff;
+    border-color: #2b5dff;
+    transition: background-color 0.7s, border 0.7s;
+    
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2155ff;
+    color: white;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    text-shadow: 0px 0px 4px rgb(255, 255, 255);
+}
+
+.nav {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+
+    transition: text-shadow 0.2s;
+}
+
+.cta {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-style: none;
+    box-shadow: 0px 0px 5px rgb(22, 22, 22);
+    border-radius: 8px;
+}
+
+.cta:hover {
+    background-color: #2b5dff;
+    box-shadow: 0px 0px 5px rgb(15, 15, 15);
+    box-shadow: 0px 0px 5px rgb(15, 15, 15);
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
